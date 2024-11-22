@@ -1,0 +1,285 @@
+
+
+*{
+   font-family: sans-serif; 
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body
+{
+width: 100%;
+height: 100%;
+background-color: black;
+color: white;
+}
+
+
+
+
+.root
+{
+    background-image:radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)),url("backgroundimg.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+nav{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px 0;
+        margin-left: 65px;
+        margin-right: 80px;
+    }
+    .logo{
+        width: 160px;
+        height: auto;
+        padding-left: 12px;
+        
+    }
+nav button
+{
+    border: 0;
+    outline: none;
+    background-color:red;
+    color: white;
+    padding: 10px 18px;
+    font-size: 15px;
+font-weight: 500;
+border-radius: 4px;
+margin-left: 7px;
+cursor: pointer;
+    
+}
+ .sign-in
+    {
+        background-color: red;
+        color: white;
+        cursor: pointer;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 5px;
+        width: fit-content;
+    
+    }
+    .langu-button
+    {background: transparent;
+        border: 1px solid white;
+        color: white;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 20px;
+        padding-left: 20px;
+        border-radius: 5px;
+        width: fit-content;
+     }
+     nav .langu-button i
+     {
+        margin-left: 6px;
+     }
+     svg
+     {
+margin-right: 6px;
+     }
+
+      .main-container
+     {
+         width:100% ;
+         height: 90vh;
+        display: flex;
+        flex-direction: column;
+        
+     
+     }
+     .main-titles-container
+     {
+     color: white;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+    }
+
+     
+     .main-title
+     {
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 45px;
+        text-align: center;
+
+        
+
+
+     }
+     .main-subtitle
+     {
+        font-size: 45px;
+        font-weight: 800;
+        line-height: 45px;
+        text-align: center;
+     }
+     .main-call
+     {
+        font-size: 18px;
+        margin: 25px 0;
+        font-weight: 400;
+
+     }
+     .main-call-final
+     {
+        font-size: 18px;
+        margin: 20px 0;
+        font-weight: 400;
+    }
+
+.email{
+     gap: 6px;
+    border: 0;
+    outline: 0;
+    align-items: center;
+    margin: auto;
+}
+
+
+
+     .email input
+     {
+       padding: 16px 42px;
+        outline: none;
+       border: 1px solid gray;
+       border-radius: 4px;
+        background:rgba(20,20,20,0.8);
+         font-size: 15px;
+        font-weight: 600;
+        color: white;
+     }
+     .email-button
+     {
+        background: red;
+        padding: 16px 40px;
+        border: 0;
+        outline: 0;
+        border-radius: 4px;
+        font-size: 20px;
+        color: white;
+     }
+     .body-container
+     {
+         width: 100%;
+         background-color: black;
+         color: white;
+         font-weight: 500;
+         font-family: sans-serif;
+        
+     }
+     
+
+     /*.....faq section*/
+     
+
+.collect{
+    width: 100%;
+    background-color: black;
+}
+
+
+
+
+h1{
+    text-align: left;
+    font-size: 2rem;
+    font-weight: 500px;
+    margin-bottom: 20px;
+    font-family: Okra, Helvetica, sans-serif;
+     color:white;
+     margin: 0 310px;
+    padding-top: 50px;
+ }
+
+.explore{
+    width: 100%;
+    margin: 40px 200px;
+    display: flex;
+    flex-direction: column;
+   
+
+}
+.explore .box-1{
+    width: 70%;
+    margin: 10px 10px;
+    padding: 10px;
+    background:rgb(37, 34, 34);
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    
+    
+}
+.explore .box-1 a
+{
+    text-decoration: none;
+    color: #6b6a6a;
+    font-weight: 0;
+
+}
+.explore .box-1 p
+{
+margin: 0;
+}
+.explore .box-1 .box-3
+{
+    font-size: 1rem;
+    letter-spacing: 1px;
+    color:white;
+
+}
+ .explore .box-1 .box-2
+{
+    font-size: 1rem;
+   padding: 8px 0;
+   font-family: Okra, Helvetica, sans-serif;
+
+
+    
+}
+.explore .box-1 i
+{
+    
+  color: #8b8a8a;
+    
+}
+
+/*.....footer...*/
+.footer{
+    width: 100%;
+    padding: 50px 12% 20px;
+
+}
+.footer .row{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 50px;
+    padding: 20px 0;
+
+}
+.col a{
+    display: block;
+    color: #504c4c;
+    text-decoration: underline;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 550px;
+}
+.footer h2{
+    font-size: 22px;
+    color: #5a5757;
+margin-bottom: 30px;
+}
+
